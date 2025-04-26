@@ -47,6 +47,9 @@ const Navbar = () => {
               <Link className="nav-link" to="/contact">Contact</Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link" to="/admin">Admin</Link>
+            </li>
+            <li className="nav-item">
               <Link to="/cart" className="nav-link cart-icon">
                 🛒
                 {cartItemCount > 0 && <span className="cart-count">{cartItemCount}</span>}

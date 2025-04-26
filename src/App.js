@@ -11,6 +11,7 @@ import { CartProvider } from './contexts/CartContext';
 import Cart from './components/Cart';
 import PaymentConfirmation from './components/PaymentConfirmation';
 import Checkout from './components/Checkout';
+import Admin from './components/Admin';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/payment-confirmation" element={<PaymentConfirmation />} />
+          <Route path="/admin" element={<Admin />} />
         </Routes>
         <Footer />
       </div>
